@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h4, h5, p{
+    font-family: Arial, Helvetica;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+h1, h4, h5{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h1, h4, p{
+    color: #ffffff;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{ 
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.wrapper{
+    width: 640px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px 10px;
+}
+
+.left{
+    text-align: left;
+    position: absolute;
+    left: 0;
+}
+
+.right{
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+
+.line{
+    display: inline-block;
+}
+
+.email-template {
+    font-size: 14px;
+    color: #243756;
+    margin: 0;
+}
+
+.email-template .highlight {
+    font-weight: 600;
+    color: #445878;
+}
+
+.size12{
+    font-size: 12px;
+}
+
+.sublogo{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    height: 16px;
+}
+
+.bluebox{
+    width: 100%;
+    background-color: #445878;
+    margin: 20px 0 20px 0;
+    padding: 29px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.green{
+    background-color: #87c442;
+    padding: 29px;
+    margin-bottom: 20px;
+}
+
+ux{
+    display: block;
+}
+
+ul li{
+    display: block;
+    width: 138px;
+    height: 138px;
+    border: 2px solid #333;
+    float: left;
+}
+
+.social{
+    border: 0;
+    margin: 0 14px 0 0;
+    text-decoration: none;
+    text-align: left;
+}
+
+.sochold {
+    display: block;
+    text-align: left;
+}
+
+.sochold:first-child { 
+    background-color: yellow;
+    margin: 0 50px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.two{
+    width: 220px;
+    display: inline-block;
+}
+
+.imageholder{
+    display: inline-block;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 10px 20px 10px 20px;
+    font-family: Arial;
+    align-items: flex-start;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    font-variant-caps: all-petite-caps;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+
+
+.bt1{
+    background-color: #243756;
+    border: 2px solid #243756;
+}
+
+.bt2{
+    background-color: #558a19;
+    border: 2px solid #558a19;
+}
+
+.btn:hover {
+    background: #fff;
+}
+
+.bt1:hover {
+    border: 2px solid #243756;
+    color: #243756;
+}
+
+.bt2:hover {
+    border: 2px solid #558a19;
+    color: #558a19;
+}
